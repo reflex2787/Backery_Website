@@ -1,3 +1,4 @@
+
 @media (max-width:767px){
     .small_header{
         display: none;
@@ -7,6 +8,8 @@
     }
     .big_header{
         margin-top: -5px;
+        position: fixed;
+        width: 100%;
     }
     .menu{
         display:inline;
@@ -97,7 +100,7 @@
         margin-top: 200px;
     }
     .secondery_part{
-        margin-top: -350px;
+        /* margin-top: -350px; */
     }
     .secondery_part div:nth-child(1){
         position: absolute;
